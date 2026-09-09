@@ -1,0 +1,19 @@
+[
+  {
+    "name": "QWERT",
+    "specialization": "Cardio",
+    "fee": "6000",
+    "id": 1787732608883,
+    "gender": "",
+    "phone": "",
+    "email": "",
+    "experience": "",
+    "address": ""
+  },
+  {
+    "name": "MM2",
+    "specialization": "Surgeon",
+    "fee": "500",
+    "id": 1787749234130
+  }
+]

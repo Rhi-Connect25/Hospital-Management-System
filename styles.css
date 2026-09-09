@@ -1,0 +1,1359 @@
+/* =========================
+   GENERAL PAGE
+========================= */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    background-color: #f4f7fb;
+
+    color: #333;
+
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+
+    background: linear-gradient(
+        135deg,
+        #1565c0,
+        #42a5f5
+    );
+
+    color: white;
+
+    text-align: center;
+
+    padding: 35px 20px;
+
+}
+
+
+.header-icon {
+
+    font-size: 45px;
+
+    margin-bottom: 10px;
+
+}
+
+
+header h1 {
+
+    margin: 0;
+
+    font-size: 32px;
+
+}
+
+
+header p {
+
+    margin-top: 10px;
+
+    font-size: 16px;
+
+}
+
+
+/* =========================
+   NAVIGATION
+========================= */
+
+nav {
+
+    background-color: white;
+
+    text-align: center;
+
+    padding: 18px;
+
+    box-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+
+nav button {
+
+    border: none;
+
+    color: white;
+
+    padding: 12px 20px;
+
+    margin: 5px;
+
+    border-radius: 25px;
+
+    font-size: 14px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+}
+
+
+nav button:nth-child(1) {
+
+    background-color: #1976d2;
+
+}
+
+
+nav button:nth-child(2) {
+
+    background-color: #2e7d32;
+
+}
+
+
+nav button:nth-child(3) {
+
+    background-color: #8e24aa;
+
+}
+
+
+nav button:nth-child(4) {
+
+    background-color: #ef6c00;
+
+}
+
+
+nav button:nth-child(5) {
+
+    background-color: #00838f;
+
+}
+
+
+/* Logout Button */
+
+nav button:nth-child(6) {
+
+    background-color: #d32f2f;
+
+}
+
+
+nav button:hover {
+
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 5px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+
+nav i {
+
+    margin-right: 6px;
+
+}
+
+
+/* =========================
+   MAIN
+========================= */
+
+main {
+
+    padding: 30px;
+
+}
+
+
+section {
+
+    display: none;
+
+    padding: 25px;
+
+    border-radius: 12px;
+
+    min-height: 450px;
+
+}
+
+
+/* =========================
+   SECTION BACKGROUNDS
+========================= */
+
+#dashboard {
+
+    display: block;
+
+    background-color: #e3f2fd;
+
+}
+
+
+#patients {
+
+    background-color: #e8f5e9;
+
+}
+
+
+#doctors {
+
+    background-color: #f3e5f5;
+
+}
+
+
+#appointments {
+
+    background-color: #fff3e0;
+
+}
+
+
+#history {
+
+    background-color: #e0f7fa;
+
+}
+
+
+/* =========================
+   HEADINGS
+========================= */
+
+section h2 {
+
+    font-size: 26px;
+
+    margin-top: 0;
+
+}
+
+
+#dashboard h2 {
+
+    color: #1565c0;
+
+}
+
+
+#patients h2 {
+
+    color: #2e7d32;
+
+}
+
+
+#doctors h2 {
+
+    color: #8e24aa;
+
+}
+
+
+#appointments h2 {
+
+    color: #ef6c00;
+
+}
+
+
+#history h2 {
+
+    color: #00838f;
+
+}
+
+
+section h2 i {
+
+    margin-right: 8px;
+
+}
+
+
+/* =========================
+   DASHBOARD CARDS
+========================= */
+
+.cards {
+
+    display: flex;
+
+    gap: 20px;
+
+    flex-wrap: wrap;
+
+}
+
+
+.card {
+
+    background-color: white;
+
+    width: 210px;
+
+    padding: 25px;
+
+    text-align: center;
+
+    border-radius: 12px;
+
+    box-shadow:
+        0 4px 10px rgba(0, 0, 0, 0.1);
+
+    transition: 0.3s;
+
+}
+
+
+.card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 8px 15px rgba(0, 0, 0, 0.15);
+
+}
+
+
+.card-icon {
+
+    font-size: 35px;
+
+    margin-bottom: 10px;
+
+}
+
+
+.patient-card .card-icon {
+
+    color: #2e7d32;
+
+}
+
+
+.doctor-card .card-icon {
+
+    color: #8e24aa;
+
+}
+
+
+.appointment-card .card-icon {
+
+    color: #ef6c00;
+
+}
+
+
+.history-card .card-icon {
+
+    color: #00838f;
+
+}
+
+
+.card p {
+
+    font-size: 35px;
+
+    font-weight: bold;
+
+    color: #1976d2;
+
+    margin-bottom: 0;
+
+}
+
+
+/* =========================
+   FORMS
+========================= */
+
+form {
+
+    background-color: white;
+
+    padding: 22px;
+
+    max-width: 550px;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 3px 8px rgba(0, 0, 0, 0.1);
+
+    margin-bottom: 25px;
+
+}
+
+
+form label {
+
+    display: block;
+
+    margin-top: 12px;
+
+    margin-bottom: 5px;
+
+    font-weight: bold;
+
+}
+
+
+form input,
+form select {
+
+    width: 100%;
+
+    padding: 11px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 6px;
+
+    margin-bottom: 10px;
+
+    font-size: 14px;
+
+    box-sizing: border-box;
+
+}
+
+
+form input:focus,
+form select:focus {
+
+    outline: none;
+
+    border-color: #1976d2;
+
+    box-shadow:
+        0 0 4px rgba(25, 118, 210, 0.3);
+
+}
+
+
+form button {
+
+    background-color: #1976d2;
+
+    color: white;
+
+    border: none;
+
+    padding: 11px 20px;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    margin-top: 10px;
+
+    font-size: 14px;
+
+}
+
+
+form button:hover {
+
+    background-color: #125ca1;
+
+}
+
+
+form button i {
+
+    margin-right: 6px;
+
+}
+
+
+/* =========================
+   TABLE CONTAINER
+========================= */
+
+.table-container {
+
+    width: 100%;
+
+    overflow-x: auto;
+
+    margin-bottom: 25px;
+
+}
+
+
+/* =========================
+   TABLES
+========================= */
+
+table {
+
+    width: 100%;
+
+    min-width: 900px;
+
+    border-collapse: collapse;
+
+    background-color: white;
+
+    border-radius: 8px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 3px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+
+th {
+
+    background-color: #1976d2;
+
+    color: white;
+
+    padding: 13px;
+
+    text-align: left;
+
+    white-space: nowrap;
+
+}
+
+
+td {
+
+    padding: 12px;
+
+    border-bottom: 1px solid #ddd;
+
+    vertical-align: middle;
+
+}
+
+
+tr:hover {
+
+    background-color: #f5f5f5;
+
+}
+
+
+td i {
+
+    margin-right: 5px;
+
+}
+
+
+/* =========================
+   DIFFERENT TABLE HEADERS
+========================= */
+
+#doctors th {
+
+    background-color: #8e24aa;
+
+}
+
+
+#patients th {
+
+    background-color: #2e7d32;
+
+}
+
+
+#appointments th {
+
+    background-color: #ef6c00;
+
+}
+
+
+#history th {
+
+    background-color: #00838f;
+
+}
+
+
+/* =========================
+   PATIENT TABLE
+========================= */
+
+#patients table {
+
+    min-width: 1050px;
+
+}
+
+
+/* =========================
+   DOCTOR TABLE
+========================= */
+
+#doctors table {
+
+    min-width: 1400px;
+
+}
+
+
+/* =========================
+   ACTION BUTTONS
+========================= */
+
+.action-button {
+
+    color: white;
+
+    border: none;
+
+    padding: 7px 10px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    margin: 2px;
+
+    font-size: 12px;
+
+    white-space: nowrap;
+
+}
+
+
+.edit-button {
+
+    background-color: #1976d2;
+
+}
+
+
+.edit-button:hover {
+
+    background-color: #125ca1;
+
+}
+
+
+.delete-button {
+
+    background-color: #d32f2f;
+
+}
+
+
+.delete-button:hover {
+
+    background-color: #b71c1c;
+
+}
+
+
+.complete-button {
+
+    background-color: #2e7d32;
+
+}
+
+
+.complete-button:hover {
+
+    background-color: #1b5e20;
+
+}
+
+
+.cancel-button {
+
+    background-color: #ef6c00;
+
+}
+
+
+.cancel-button:hover {
+
+    background-color: #e65100;
+
+}
+
+
+/* =========================
+   STATUS
+========================= */
+
+.status {
+
+    display: inline-block;
+
+    padding: 6px 10px;
+
+    border-radius: 15px;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+}
+
+
+.status-scheduled {
+
+    background-color: #e3f2fd;
+
+    color: #1565c0;
+
+}
+
+
+.status-completed {
+
+    background-color: #e8f5e9;
+
+    color: #2e7d32;
+
+}
+
+
+.status-cancelled {
+
+    background-color: #ffebee;
+
+    color: #c62828;
+
+}
+
+
+/* =========================
+   DOCTOR INFORMATION
+========================= */
+
+.doctor-info-box {
+
+    background-color: white;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    margin-bottom: 25px;
+
+    box-shadow:
+        0 3px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.doctor-info-box h3 {
+
+    color: #8e24aa;
+
+}
+
+
+.doctor-info-box p {
+
+    color: #555;
+
+}
+
+
+/* =========================
+   CONSULTATION FEE
+========================= */
+
+.fee-display {
+
+    background-color: #fff8e1;
+
+    border: 1px solid #ffca28;
+
+    padding: 12px;
+
+    border-radius: 6px;
+
+    margin: 5px 0 10px 0;
+
+    color: #795548;
+
+}
+
+
+.fee-display i {
+
+    margin-right: 5px;
+
+    color: #ef6c00;
+
+}
+
+
+.fee-display strong {
+
+    color: #e65100;
+
+    font-size: 17px;
+
+}
+
+
+/* =========================
+   ADMIN AUTHENTICATION PORTAL
+========================= */
+
+#adminAuth {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    min-height: 55vh;
+
+    padding: 30px;
+
+}
+
+
+.admin-auth-card {
+
+    background-color: white;
+
+    width: 100%;
+
+    max-width: 430px;
+
+    padding: 30px;
+
+    border-radius: 12px;
+
+    box-shadow:
+        0 5px 15px rgba(0, 0, 0, 0.15);
+
+    text-align: center;
+
+}
+
+
+.admin-auth-icon {
+
+    font-size: 48px;
+
+    color: #1976d2;
+
+    margin-bottom: 10px;
+
+}
+
+
+.admin-auth-card h2 {
+
+    color: #1565c0;
+
+    margin: 8px 0;
+
+}
+
+
+.admin-auth-card p {
+
+    color: #666;
+
+    line-height: 1.5;
+
+    margin-bottom: 20px;
+
+}
+
+
+/* =========================
+   AUTH TABS
+========================= */
+
+.auth-tabs {
+
+    display: flex;
+
+    gap: 8px;
+
+    margin-bottom: 18px;
+
+}
+
+
+.auth-tabs button {
+
+    flex: 1;
+
+    padding: 10px;
+
+    border: 1px solid #1976d2;
+
+    background-color: white;
+
+    color: #1976d2;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    font-size: 14px;
+
+}
+
+
+.auth-tabs button.active,
+.auth-tabs button:hover {
+
+    background-color: #1976d2;
+
+    color: white;
+
+}
+
+
+/* =========================
+   AUTH FORMS
+========================= */
+
+.admin-auth-card form {
+
+    max-width: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    box-shadow: none;
+
+    text-align: left;
+
+}
+
+
+.admin-auth-card form label {
+
+    display: block;
+
+    margin-top: 12px;
+
+    margin-bottom: 5px;
+
+}
+
+
+.admin-auth-card form input {
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+}
+
+
+.admin-auth-card form button {
+
+    width: 100%;
+
+    margin-top: 12px;
+
+}
+
+
+/* =========================
+   LOGOUT
+========================= */
+
+#logoutButton {
+
+    background-color: #d32f2f;
+
+}
+
+
+#logoutButton:hover {
+
+    background-color: #b71c1c;
+
+}
+
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+@media (max-width: 700px) {
+
+    header {
+
+        padding: 25px 15px;
+
+    }
+
+
+    header h1 {
+
+        font-size: 24px;
+
+    }
+
+
+    header p {
+
+        font-size: 14px;
+
+    }
+
+
+    nav {
+
+        padding: 12px;
+
+    }
+
+
+    nav button {
+
+        width: 90%;
+
+        margin: 5px;
+
+    }
+
+
+    main {
+
+        padding: 15px;
+
+    }
+
+
+    section {
+
+        padding: 18px;
+
+    }
+
+
+    section h2 {
+
+        font-size: 22px;
+
+    }
+
+
+    .cards {
+
+        flex-direction: column;
+
+    }
+
+
+    .card {
+
+        width: auto;
+
+    }
+
+
+    form {
+
+        max-width: none;
+
+        padding: 18px;
+
+    }
+
+
+    table {
+
+        min-width: 900px;
+
+    }
+
+
+    #patients table {
+
+        min-width: 1050px;
+
+    }
+
+
+    #doctors table {
+
+        min-width: 1400px;
+
+    }
+
+
+    #adminAuth {
+
+        padding: 15px;
+
+    }
+
+
+    .admin-auth-card {
+
+        padding: 22px;
+
+    }
+
+
+    .auth-tabs {
+
+        flex-direction: column;
+
+    }
+
+}
+/* =========================================
+   EDIT MODAL
+========================================= */
+
+.edit-modal {
+
+    display: none;
+
+    position: fixed;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+    background:
+        rgba(0, 0, 0, 0.6);
+
+    z-index: 9999;
+
+    overflow-y: auto;
+
+    padding: 30px 15px;
+
+}
+
+
+.edit-modal.active {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: flex-start;
+
+}
+
+
+.edit-modal-content {
+
+    background: white;
+
+    width: 100%;
+
+    max-width: 650px;
+
+    margin: auto;
+
+    border-radius: 12px;
+
+    padding: 25px;
+
+    box-shadow:
+        0 10px 30px
+        rgba(0, 0, 0, 0.3);
+
+}
+
+
+.edit-modal-header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 25px;
+
+    border-bottom:
+        1px solid #ddd;
+
+    padding-bottom: 15px;
+
+}
+
+
+.edit-modal-header h2 {
+
+    margin: 0;
+
+}
+
+
+.close-modal {
+
+    border: none;
+
+    background: transparent;
+
+    font-size: 32px;
+
+    cursor: pointer;
+
+    color: #555;
+
+}
+
+
+.close-modal:hover {
+
+    color: red;
+
+}
+
+
+.edit-form-group {
+
+    margin-bottom: 18px;
+
+}
+
+
+.edit-form-group label {
+
+    display: block;
+
+    font-weight: 600;
+
+    margin-bottom: 7px;
+
+}
+
+
+.edit-form-group input,
+
+.edit-form-group select,
+
+.edit-form-group textarea {
+
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 6px;
+
+    font-size: 15px;
+
+    box-sizing: border-box;
+
+}
+
+
+.edit-form-group textarea {
+
+    resize: vertical;
+
+    min-height: 80px;
+
+}
+
+
+.edit-modal-buttons {
+
+    display: flex;
+
+    gap: 15px;
+
+    margin-top: 25px;
+
+}
+
+
+.save-edit-button,
+
+.cancel-edit-button {
+
+    border: none;
+
+    padding: 12px 20px;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    font-size: 15px;
+
+}
+
+
+.save-edit-button {
+
+    background: #198754;
+
+    color: white;
+
+}
+
+
+.cancel-edit-button {
+
+    background: #dc3545;
+
+    color: white;
+
+}
+
+
+.save-edit-button:hover,
+
+.cancel-edit-button:hover {
+
+    opacity: 0.9;
+
+}
+
+
+/* =========================================
+   MOBILE RESPONSIVE EDIT MODAL
+========================================= */
+
+@media (max-width: 600px) {
+
+    .edit-modal-content {
+
+        padding: 18px;
+
+    }
+
+
+    .edit-modal-buttons {
+
+        flex-direction: column;
+
+    }
+
+}
